@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Молитва</title>
+  <style>
+    body {
+      background: url("church-red-birch.png") no-repeat center center fixed;
+      background-size: 1200px auto;
+      font-family: "Georgia", serif;
+      color: #3b2a1a;
+      text-align: center;
+      padding: 60px;
+      animation: flicker 6s infinite;
+    }
+
+    @keyframes flicker {
+      0%   { filter: brightness(95%); }
+      50%  { filter: brightness(105%); }
+      100% { filter: brightness(95%); }
+    }
+
+    .scroll {
+      background-color: rgba(255, 248, 220, 0.85);
+      border-radius: 15px;
+      padding: 40px;
+      width: 600px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      font-size: 20px;
+      line-height: 1.6;
+      opacity: 0;
+      animation: fadeIn 4s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #5a3e1b;
+      text-shadow: 1px 1px 2px #d2b48c;
+      opacity: 0;
+      animation: fadeIn 3s ease-in-out forwards;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 18px;
+      background: #d2b48c;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(0,0,0,0.4);
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #c0a060;
+    }
+  </style>
+</head>
+<body>
+  <h1>Молитва «Отче наш»</h1>
+  <div class="scroll">
+    <p>Отче наш, Иже еси на небесе́х!<br>
+    Да святится имя Твое, да прии́дет Царствие Твое,<br>
+    да будет воля Твоя, яко на небеси́ и на земли́.<br>
+    Хлеб наш насущный да́ждь нам дне́сь;<br>
+    и оста́ви нам до́лги наша, якоже и мы оставляем должнико́м нашим;<br>
+    и не введи нас во искушение, но изба́ви нас от лукаваго.<br>
+    Яко Твое есть Царство и сила, и слава, Отца, и Сына, и Святаго Духа,<br>
+    ныне и присно, и во веки веков. Аминь.<br>
+    (Мф.6:9-13 и Лк.11:2-4)</p>
+Помози и исцѣли раба Твоего Калмака Дмитрiя. Аминь.
+  </div>
+
+  <</body>
+</html>
